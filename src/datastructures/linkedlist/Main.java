@@ -8,16 +8,11 @@ public class Main {
         linkedListOne.append(3);
         linkedListOne.append(4);
 
+        linkedListOne.reverse();
+        linkedListOne.printList();
         linkedListOne.getHead();
         linkedListOne.getTail();
         linkedListOne.getLength();
-
-        //linkedListOne.printList();
-
-        System.out.println("Value at index 1: " + linkedListOne.get(0).value);
-
-        linkedListOne.set(1, 50);
-        linkedListOne.printList();
 
     }
 }
